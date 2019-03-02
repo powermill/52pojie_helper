@@ -12,8 +12,15 @@
 4. 判断回帖结果，如果该帖不存在，重新选择下一帖回复。
 
 ### 使用方法
+基于Java8，使用前需安装Java运行环境
+#### 方式一: 源码启动
 1. 启动前修改userconfig.yml文件，配置cookie,formhash等。
 2. 启动项目
+
+#### 方式二: jar包启动
+1. 下载jar包
+2. 同级目录下增加userconfig.yml文件，配置cookie,formhash等
+3. 启动jar包
 
 ### 涉及技术
 - **SpringSchudul** 用来定时执行任务

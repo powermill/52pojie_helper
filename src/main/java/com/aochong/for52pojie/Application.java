@@ -1,5 +1,6 @@
 package com.aochong.for52pojie;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.config.YamlPropertiesFactoryBean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,10 +12,12 @@ import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
 @EnableScheduling
+@Slf4j
 public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        log.info("程序启动成功，请等待定时执行");
     }
 
     @Bean
