@@ -18,7 +18,7 @@
 2. 启动项目
 
 #### 方式二: jar包启动
-1. 下载jar包
+1. [下载](https://github.com/AochongZhang/52pojie_helper/releases)jar包
 2. 同级目录下增加userconfig.yml文件，配置cookie,formhash等
 3. 启动jar包
 
