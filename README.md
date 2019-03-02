@@ -23,7 +23,7 @@
 3. 启动jar包
 
 ### 涉及技术
-- **SpringSchudul** 用来定时执行任务
+- **SpringSchedul** 用来定时执行任务
 - **SpringDataJpa + H2数据库** 用来保存已回复过的帖子ID
 - **RestTemplate** 发送HTTP请求
 
